@@ -20,7 +20,7 @@ namespace CifradoVigenere.Api.Controllers
         {
             _logger = logger;
         }
-        
+
         public string Encriptar = "HOLA MUNDO";
 
         [HttpPost]
@@ -38,7 +38,7 @@ namespace CifradoVigenere.Api.Controllers
 
 
         [HttpGet]
-        public IActionResult Get() 
+        public IActionResult Get()
         {
             StringBuilder text = new StringBuilder(Encriptar);
             string clave = pokemon.Keys();
@@ -56,27 +56,9 @@ namespace CifradoVigenere.Api.Controllers
             }
             return Ok("Esta es la palabra encriptada: " + text.ToString());
         }
+        public class Desencriptar{
 
-    }
-    public class DesencriptarController : ControllerBase
-    {
-        public IActionResult Post(ref StringBuilder s, string key)
-        {
-            for (int i = 0; i < s.Length; i++)
-                s[i] = char.ToUpper(s[1]);
-            key = key.ToUpper();
-            int j = 0;
-            for (int i = 0; i < s.Length; i++)
-            {
-                if (char.IsLetter(s[i]))
-                {
-                    s[i] = s[i] >= key[j] ?
-                        (char)(s[i] - key[j] + 'A'):
-                        (char)('A' + ('Z' + key[j] - 'A') + 1);
-                }
-                j = j + 1 == key.Length ? 0 : j + 1;
             }
-            return Ok("La palabra desencriptada es: "+ s);
-        }
     }
+
 }
