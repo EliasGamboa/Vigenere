@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eWQiaH9QPeiH1fzEo4AoQYh0VeTodgnK3q1UGAUF9xQA/uN0pxCnEC04nS8IwqOCzNc6ql7XRVZoVDy9i9yQeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Domain\\CifradoVigenere.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saile\\.nuget\\packages\\pokeapi.net\\1.1.2\\pokeapi.net.1.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\bin\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.deps.json
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\bin\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.dll
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\bin\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.pdb
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.csprojAssemblyReference.cache
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.AssemblyInfo.cs
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.dll
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.pdb
+C:\Users\saile\Documents\API´s\CifradoVigenere\CifradoVigenere.Infraestructure\obj\Debug\netcoreapp3.1\CifradoVigenere.Infraestructure.csproj.CoreCompileInputs.cache

@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PokeApi.NET/1.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PokeApi.NET.dll": {}
+        }
+      },
+      "CifradoVigenere.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PokeApi.NET": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/CifradoVigenere.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CifradoVigenere.Infraestructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PokeApi.NET/1.1.2": {
+      "sha512": "zUcGE/CcMBrlSrd3tXGvw5KQ2iycKZqdD/HvjBppHoHspUPM40H2ST6coi8xC5shrj4U9s1mBCzKfgKiAVc7VQ==",
+      "type": "package",
+      "path": "pokeapi.net/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/PokeApi.NET.dll",
+        "lib/net45/PokeApi.NET.xml",
+        "lib/netstandard2.0/PokeApi.NET.dll",
+        "lib/netstandard2.0/PokeApi.NET.xml",
+        "pokeapi.net.1.1.2.nupkg.sha512",
+        "pokeapi.net.nuspec"
+      ]
+    },
+    "CifradoVigenere.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../CifradoVigenere.Infraestructure/CifradoVigenere.Infraestructure.csproj",
+      "msbuildProject": "../CifradoVigenere.Infraestructure/CifradoVigenere.Infraestructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CifradoVigenere.Infraestructure >= 1.0.0",
+      "PokeApi.NET >= 1.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\saile\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Domain\\CifradoVigenere.Domain.csproj",
+      "projectName": "CifradoVigenere.Domain",
+      "projectPath": "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Domain\\CifradoVigenere.Domain.csproj",
+      "packagesPath": "C:\\Users\\saile\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\saile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Infraestructure\\CifradoVigenere.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\saile\\Documents\\API´s\\CifradoVigenere\\CifradoVigenere.Infraestructure\\CifradoVigenere.Infraestructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "PokeApi.NET": {
+            "target": "Package",
+            "version": "[1.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
